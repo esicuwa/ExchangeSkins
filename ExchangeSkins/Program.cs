@@ -12,6 +12,17 @@ namespace ExchangeSkins
             Logger.Initialize(consoleOutput: true, minLogLevel: LogLevel.TRACE);
             var logger = Logger.Instance;
 
+
+
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Owner: @esicuwa \nChanel: https://t.me/software_esic");
+            logger.Info("Owner: @esicuwa \nChanel: https://t.me/software_esic");
+            Console.WriteLine("\n\n");
+            Console.ResetColor();
+
+
+
             logger.Section("APPLICATION START");
             logger.Info("Loading configuration...");
 
